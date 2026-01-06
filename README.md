@@ -1,50 +1,36 @@
-# Welcome to your Expo app 👋
+# Maps App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Sección 1: Permisos
 
-## Get started
+### Temas puntuales
 
-1. Install dependencies
+Esta sección es muy importante para manejar cualquier permiso que nuestra aplicación necesite, como acceso a la cámara, contactos y demás, pero aquí lo haremos con la localización.
 
-   ```bash
-   npm install
-   ```
+Puntualmente veremos:
 
-2. Start the app
+- Expo Location
+- Permisos
+- Providers
+- Zustand
+- Acciones
+- Estado de los permisos
+- Estado de la aplicación (AppState)
+- Abrir ajustes en caso de tener acceso denegado
+- Y más
 
-   ```bash
-   npx expo start
-   ```
+## Sección 2: Mapas
 
-In the output, you'll find options to open the app in a
+### Temas puntuales
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+En esta sección vamos a trabajar mostrando y controlando mapas, puntualmente veremos:
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- Marcadores
+- Polylines
+- Seguimiento de coordenadas
+- Obtener la ubicación
+- Controlar el mapa
+- Mover cámara
+- Reutilización de componentes personalizados
+- Zustand
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+La idea es poder tener el control de las coordenadas del usuario y poder controlar el mapa a nuestra voluntad.
